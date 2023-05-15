@@ -1,6 +1,7 @@
 ﻿@page "/customerlist"
 @using EpsilonTest.BlazorWasm.Shared
 @inject ICustomerManager customerManager
+@inject NavigationManager navManager
 
 <PageTitle>Customers</PageTitle>
 
@@ -24,6 +25,8 @@ else
                 <th>PostalCode</th>
                 <th>Country</th>
                 <th>Phone</th>
+                <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -37,6 +40,8 @@ else
                     <td>@customer.PostalCode</td>
                     <td>@customer.Country</td>
                     <td>@customer.Phone</td>
+                    <td><button type="button" class="btn btn-light" @onclick="@(() => Edit(customer.Id))">Edit</button></td>
+                    <td><button type="button" class="btn btn-danger" @onclick="@(() => Delete(customer))">Delete</button></td>
                 </tr>
             }
         </tbody>
@@ -85,5 +90,19 @@ else
         {
             Customers = res.ToList();
         }
+    }
+
+    private async Task Delete(Customer customer)
+    {
+        var res = await customerManager.DeleteCustomer(customer);
+        if (res)
+        {
+            Customers.Remove(customer);
+        }
+    }
+
+    private void Edit(Guid Id)
+    {
+        navManager.NavigateTo($"/updatecustomer/{Id}");
     }
 }
