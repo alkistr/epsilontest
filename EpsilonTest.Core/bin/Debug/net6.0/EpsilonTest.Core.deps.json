@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EpsilonTest.Core/1.0.0": {
+        "runtime": {
+          "EpsilonTest.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EpsilonTest.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

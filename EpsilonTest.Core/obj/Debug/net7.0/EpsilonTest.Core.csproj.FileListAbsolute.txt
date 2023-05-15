@@ -1,0 +1,12 @@
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\bin\Debug\net7.0\EpsilonTest.Core.deps.json
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\bin\Debug\net7.0\EpsilonTest.Core.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\bin\Debug\net7.0\EpsilonTest.Core.pdb
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.csproj.AssemblyReference.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.AssemblyInfoInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.AssemblyInfo.cs
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\refint\EpsilonTest.Core.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\EpsilonTest.Core.pdb
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.Core\obj\Debug\net7.0\ref\EpsilonTest.Core.dll

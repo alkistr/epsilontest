@@ -1,0 +1,15 @@
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\bin\Debug\net6.0\Epsilon.Test.Exercise4.exe
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\bin\Debug\net6.0\Epsilon.Test.Exercise4.deps.json
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\bin\Debug\net6.0\Epsilon.Test.Exercise4.runtimeconfig.json
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\bin\Debug\net6.0\Epsilon.Test.Exercise4.dll
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\bin\Debug\net6.0\Epsilon.Test.Exercise4.pdb
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.csproj.AssemblyReference.cache
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.AssemblyInfoInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.AssemblyInfo.cs
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.csproj.CoreCompileInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.dll
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\refint\Epsilon.Test.Exercise4.dll
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.pdb
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\Epsilon.Test.Exercise4.genruntimeconfig.cache
+C:\Users\trias\source\Repos\EpsilonTest\Epsilon.Test.Exercise4\obj\Debug\net6.0\ref\Epsilon.Test.Exercise4.dll

@@ -1,0 +1,48 @@
+﻿@page "/createcustomer"
+@inject ICustomerManager customerManager
+@inject NavigationManager navigationManager
+
+<h3>CreateCustomer</h3>
+<br/>
+
+<EditForm Model="customer" OnInvalidSubmit="CreateNewCustomer">
+	<DataAnnotationsValidator></DataAnnotationsValidator>
+	<div class="form-group">
+		<label for="contact-name">Contact Name</label>
+		<InputText id="contact-name" @bind-Value="customer.ContactName" class="form-control"></InputText>
+	</div>
+	
+	<div class="form-group">
+		<label for="contact-name">Address</label>
+		<InputText id="contact-name" @bind-Value="customer.Address" class="form-control"></InputText>
+	</div>
+	
+	<div class="form-group">
+		<label for="contact-name">Company Name</label>
+		<InputText id="contact-name" @bind-Value="customer.CompanyName" class="form-control"></InputText>
+	</div>
+	
+	<div class="form-group">
+		<label for="contact-name">Phone</label>
+		<InputText id="contact-name" @bind-Value="customer.Phone" class="form-control"></InputText>
+	</div>
+
+</EditForm>
+
+@code {
+	private Customer customer = new();
+
+	private async Task CreateNewCustomer()
+	{
+		var response = await customerManager.CreateCustomer(customer);
+		if(response)
+		{
+			navigationManager.NavigateTo("/customerlist");
+		}
+	}
+
+	private async Task Cancel()
+	{
+		navigationManager.NavigateTo("/customerlist");
+	}
+}

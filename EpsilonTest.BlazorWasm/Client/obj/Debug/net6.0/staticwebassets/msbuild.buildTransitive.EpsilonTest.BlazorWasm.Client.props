@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EpsilonTest.BlazorWasm.Client.props" />
+</Project>

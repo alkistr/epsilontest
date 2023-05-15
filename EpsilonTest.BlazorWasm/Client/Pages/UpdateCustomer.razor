@@ -1,0 +1,56 @@
+﻿@page "/updatecustomer/{cusId:Guid}"
+@inject ICustomerManager customerManager
+@inject NavigationManager navigationManager
+
+<h3>UpdateCustomer</h3>
+<br />
+
+<EditForm Model="customer" OnInvalidSubmit="Update_Customer">
+	<DataAnnotationsValidator></DataAnnotationsValidator>
+	<div class="form-group">
+		<label for="contact-name">Contact Name</label>
+		<InputText id="contact-name" @bind-Value="customer.ContactName" class="form-control"></InputText>
+	</div>
+
+	<div class="form-group">
+		<label for="contact-name">Address</label>
+		<InputText id="contact-name" @bind-Value="customer.Address" class="form-control"></InputText>
+	</div>
+
+	<div class="form-group">
+		<label for="contact-name">Company Name</label>
+		<InputText id="contact-name" @bind-Value="customer.CompanyName" class="form-control"></InputText>
+	</div>
+
+	<div class="form-group">
+		<label for="contact-name">Phone</label>
+		<InputText id="contact-name" @bind-Value="customer.Phone" class="form-control"></InputText>
+	</div>
+
+</EditForm>
+
+@code {
+	[Parameter]
+	public Guid cusId { get; set; }
+
+	private Customer customer = new();
+
+	protected override async Task OnInitializedAsync()
+	{
+		this.customer = await customerManager.GetCustomer(cusId);
+	}
+
+	private async Task Update_Customer()
+	{
+		var response = await customerManager.UpdateCustomer(customer);
+		if (response)
+		{
+			navigationManager.NavigateTo("/customerlist");
+		}
+	}
+
+	private async Task Cancel()
+	{
+		navigationManager.NavigateTo("/customerlist");
+	}
+}

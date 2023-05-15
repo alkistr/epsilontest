@@ -1,0 +1,445 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Server\\EpsilonTest.BlazorWasm.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj",
+        "projectName": "EpsilonTest.Application",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\EpsilonTest.BlazorWasm.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\EpsilonTest.BlazorWasm.Client.csproj",
+        "projectName": "EpsilonTest.BlazorWasm.Client",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\EpsilonTest.BlazorWasm.Client.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Server\\EpsilonTest.BlazorWasm.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Server\\EpsilonTest.BlazorWasm.Server.csproj",
+        "projectName": "EpsilonTest.BlazorWasm.Server",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Server\\EpsilonTest.BlazorWasm.Server.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Application\\EpsilonTest.Application.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\EpsilonTest.BlazorWasm.Client.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Client\\EpsilonTest.BlazorWasm.Client.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj"
+              },
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj",
+        "projectName": "EpsilonTest.BlazorWasm.Shared",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\EpsilonTest.BlazorWasm.Shared.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.BlazorWasm\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj",
+        "projectName": "EpsilonTest.Core",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj",
+        "projectName": "EpsilonTest.Data",
+        "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\EpsilonTest.Data.csproj",
+        "packagesPath": "C:\\Users\\trias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj": {
+                "projectPath": "C:\\Users\\trias\\source\\Repos\\EpsilonTest\\EpsilonTest.Core\\EpsilonTest.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

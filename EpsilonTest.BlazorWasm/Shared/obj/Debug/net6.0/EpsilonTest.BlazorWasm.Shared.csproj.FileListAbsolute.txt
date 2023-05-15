@@ -1,0 +1,12 @@
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\bin\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.deps.json
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\bin\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\bin\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.pdb
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.csproj.AssemblyReference.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.AssemblyInfoInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.AssemblyInfo.cs
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\refint\EpsilonTest.BlazorWasm.Shared.dll
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\EpsilonTest.BlazorWasm.Shared.pdb
+C:\Users\trias\source\Repos\EpsilonTest\EpsilonTest.BlazorWasm\Shared\obj\Debug\net6.0\ref\EpsilonTest.BlazorWasm.Shared.dll
